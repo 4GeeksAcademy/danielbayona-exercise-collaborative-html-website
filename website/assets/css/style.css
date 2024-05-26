@@ -1,3 +1,25 @@
-body{
+body {
     background: #BDBDBD;
+    
+}
+/* resetea el padding de toda la pagina */
+.container-fluid {
+    padding: 0;
+}
+.hero-image {
+  height: 600px;
+}
+.hero-contain {
+    background-image: url("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.hero-image .hero-contain h1 {
+  font-size:100px;
+}
+.hero-image .hero-contain p {
+  font-size:50px;
 }
