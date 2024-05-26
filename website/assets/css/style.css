@@ -1,16 +1,17 @@
 /* body{
     background: #BDBDBD;
+<<<<<<< HEAD
 } */
 
 /* este estilo esta para cambiar de color del span que esta dentro del h1 */
-.card-title span{
+.text-first-heading span{
     font-weight: normal;
-    color: gray
+    color: gray;
 }
 /* este estilo esta para centrar el texto de las tarjetas */
-.card-body p{
+.text-first-heading p, .card p{
     text-align: justify;
-    padding-right: 20%;
+    padding-right: 10%;
 }
 /* quita el borde de las cards y asi poder reemplazarlo con los hr */
 .custom-border{
@@ -21,3 +22,29 @@ hr{
     width: 70%;
     margin: 0 auto;
 }
+
+.container-first-heading {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content-first-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-first-heading {
+    flex: 1;
+}
+
+.image-first-heading img {
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: right;
+}
+
+
