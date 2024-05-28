@@ -68,3 +68,8 @@ hr{
 .hero-image .hero-contain p {
   font-size:50px;
 }
+
+#barrita{
+    background-color: rgb(56, 55, 55);
+    margin-top: 20px;
+}
